@@ -1,0 +1,133 @@
+
+body{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: normal;
+}
+
+#logo {
+    width: 4em;
+    margin-top: 4em;
+}
+
+input {
+    width: 30em;
+    height: 4em;
+    border-radius: 2em;
+    border: 1px solid red;
+    position: relative;
+    right: 150px;
+}
+
+button {
+    width: 20em;
+    height: 4em;
+    border-radius: 4em;
+    border: none;
+    background: blue;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 275px;
+}
+
+button:hover {
+    background: hsl(223, 100%, 88%);
+}
+
+#errortext {
+    color: red;
+    font-size: 14px;
+    position: relative;
+    right: 8em;
+}
+
+.errortext {
+    visibility: hidden;
+}
+
+#mainimg {
+    width: 35em;
+}
+
+.icon {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 5em 1em 1em 1em;
+    color: blue;
+}
+
+.icon:hover {
+    color: white;
+    background: blue;
+}
+
+#facebook {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+footer > p {
+    color: hsl(0, 0%, 59%);
+}
+
+@media all and (max-width:380px){
+    
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    
+    input {
+        width: 25em;
+        height: 3em;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    button {
+        width: 25em;
+        height: 3em;
+        margin-bottom: 2em ;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    #errortext {
+        left: 0;
+        text-align: center;
+    }
+    
+    .errortext {
+        visibility: hidden;
+    }
+    
+    #mainimg {
+        width: 100%;
+    }
+    
+    footer > p {
+        font-size: 8px;
+    }
+}
